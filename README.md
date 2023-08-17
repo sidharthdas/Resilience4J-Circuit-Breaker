@@ -22,3 +22,11 @@ Some more commands:
 1) docker stop <container-id>
 2) docker start <container-id>
 3) docker log <container-id>
+
+Push created docker image to docker hub
+1) Create a account in docker hub
+2) In terminal run below command
+3) docker login
+4) once loggedin, we have to create a tag
+5) docker tag <image-name> <username>/<image-name>
+6) docker push <username>/<image-name>
